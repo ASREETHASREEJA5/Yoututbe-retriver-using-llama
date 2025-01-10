@@ -38,7 +38,7 @@ def get_video_links_and_titles(query):
         'q': query,
         'key': API_KEY,
         'type': 'video',
-        'maxResults': 10
+        'maxResults': 5
     }
     response = requests.get(BASE_URL, params=params)
 
